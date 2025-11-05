@@ -27,13 +27,13 @@ private:
      * en el grafo residual.
      * @param u Nodo actual.
      * @param t Nodo destino (sumidero).
-     * @param res Grafo residual (matriz de adyacencia). Se modifica in-place.
+     * @param res Grafo residual (matriz de adyacencia).
      * @param visited Vector para marcar nodos visitados en esta iteración de DFS.
      * @param f Flujo mínimo encontrado en el camino hasta el nodo 'u'.
      * @return int La cantidad de flujo que se pudo enviar por el camino encontrado (0 si no se encontró camino).
      */
     static int dfsFind(int u, int t, vector<vector<int>>& res, vector<char>& visited, int f) {
-        if (u == t) return f; // Se llegó al sumidero
+        if (u == t) return f;
         visited[u] = 1;
         int n = (int)res.size();
         for (int v = 0; v < n; ++v) {

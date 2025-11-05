@@ -1,0 +1,12 @@
+Mauricio Olguín Sánchez - A01711522
+Luisa Fernanda Valdez Guillén – A01711870
+
+
+Mauricio Olguín:
+	hice la implemtenación del algoritmo Max Flow utilizando Ford-Fulkerson y nearest utilizando KD-Tree.
+
+Luisa Fernanda:
+	Hice la implementación del algoritmo de árbol de expansión mínima (Minimum Spanning Tree - MST) y del agente viajero (Traveling Salesperson Problem - TSP).
+
+En equipo:
+	Construcción del archivo main.cpp
