@@ -1,3 +1,10 @@
+/**
+ * @file mst.h
+ * @authors Luisa Fernanda Valdez Guillén - A01711870
+ * @brief Implementación del Algoritmo de Prim para encontrar el 
+ * Árbol de Expansión Mínima (Minimum Spanning Tree - MST) y resolver el problema 1 (cableado de fibra).
+ * */
+
 #ifndef MST_H
 #define MST_H
 
@@ -6,8 +13,21 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * @class MST
+ * @brief Clase estática que encapsula la lógica del algoritmo de Prim
+ * para el cableado óptimo de colonias.
+ */
 class MST {
 public:
+    /**
+     * @brief Calcula e imprime las aristas del Árbol de Expansión Mínima (MST)
+     * usando el algoritmo de Prim. Resuelve el problema 1.
+     * @param graph Matriz de adyacencia (grafo ponderado) que representa las distancias en km.
+     * @param n Número de nodos (colonias).
+     * @return void (Imprime directamente las aristas del MST).
+    * @note Complejidad: O(n^2), donde n es el número de nodos.
+     */
     static void calculateMST(vector<vector<int>>& graph, int n) {
         vector<bool> inMST(n, false);
         vector<int> key(n, INT_MAX);
