@@ -2,7 +2,7 @@
  * @file main.cpp
  * @authors Luisa Fernanda Valdez Guillén - A01711870
  *          Mauricio Olguín Sánchez - A01711522
- * @brief Programa principal (driver) que lee la entrada y ejecuta los algoritmos
+ * @brief Programa principal que lee la entrada y ejecuta los algoritmos
  * para resolver los 4 problemas de la Situación Problema.
  * */
 
